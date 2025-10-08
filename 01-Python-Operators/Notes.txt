@@ -1,0 +1,89 @@
+Python Operators
+
+In Python, operators are special symbols or keywords that perform operations on values (operands).
+
+Example:
+a + b
+Here, + is the operator, and a and b are the operands.
+
+------------------------------------------------------------
+1. Arithmetic Operators
+Used to perform mathematical operations.
+
++   Addition              10 + 5  = 15
+-   Subtraction           10 - 5  = 5
+*   Multiplication        10 * 5  = 50
+/   Division              10 / 5  = 2.0
+%   Modulus               10 % 3  = 1
+**  Exponentiation        2 ** 3  = 8
+//  Floor Division        10 // 3 = 3
+
+------------------------------------------------------------
+2. Comparison (Relational) Operators
+Used to compare values. Returns True or False.
+
+==  Equal to              5 == 5   → True
+!=  Not equal to          5 != 3   → True
+>   Greater than          10 > 5   → True
+<   Less than             5 < 10   → True
+>=  Greater or equal      10 >= 10 → True
+<=  Less or equal         3 <= 5   → True
+
+------------------------------------------------------------
+3. Assignment Operators
+Used to assign or update values of variables.
+
+=    x = 5        → Assigns 5 to x
++=   x += 3       → x = x + 3
+-=   x -= 3       → x = x - 3
+*=   x *= 3       → x = x * 3
+/=   x /= 3       → x = x / 3
+%=   x %= 3       → x = x % 3
+**=  x **= 2      → x = x ** 2
+//=  x //= 2      → x = x // 2
+
+------------------------------------------------------------
+4. Logical Operators
+Used to combine conditional statements.
+
+and   → True if both are True
+or    → True if at least one is True
+not   → Reverses the result
+
+Example:
+x > 0 and x < 10
+x > 10 or x == 5
+not(x > 10)
+
+------------------------------------------------------------
+5. Bitwise Operators
+Operate on binary numbers (bit-level).
+
+&   AND           5 & 3  = 1
+|   OR            5 | 3  = 7
+^   XOR           5 ^ 3  = 6
+~   NOT           ~5     = -6
+<<  Left shift    5 << 1 = 10
+>>  Right shift   5 >> 1 = 2
+
+------------------------------------------------------------
+6. Membership Operators
+Used to test if a value exists in a sequence.
+
+in        → True if value is found
+not in    → True if value not found
+
+Examples:
+'a' in 'apple'     → True
+'x' not in 'apple' → True
+
+------------------------------------------------------------
+7. Identity Operators
+Used to compare memory locations of two objects.
+
+is       → True if both refer to same object
+is not   → True if not same object
+
+Example:
+x is y
+x is not y
