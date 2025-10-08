@@ -1,28 +1,38 @@
 #!/usr/bin/python3
-
 # ----------------------------------------------------
-# Simple Python program demonstrating conditional logic
+# Python Program: Conditional Logic Examples
 # ----------------------------------------------------
 
-# Define two variables
-age = 20
-has_id = True  # This represents if the person has an ID card
+# Part 1: Club Entry Check
+age = 20             # Person's age
+has_id = True        # Does the person have an ID card?
 
-# Print variable values for clarity
+# Print variable values
 print("Age:", age)
 print("Has ID:", has_id)
 
-# Conditional logic using if, elif, and else
-# This block checks if a person is allowed to enter a club.
+# Conditional logic to determine access
 if age >= 18 and has_id:
-    # Both conditions must be True: age is 18+ AND person has an ID
-    print(" Access granted! You are allowed to enter.")
+    print("✅ Access granted! You are allowed to enter.")
 elif age >= 18 and not has_id:
-    # Age is enough, but no ID
-    print(" Sorry, you need to show your ID to enter.")
+    print("⚠️ Sorry, you need to show your ID to enter.")
 else:
-    # If neither of the above is true, person is underage
-    print(" Access denied! You must be at least 18 years old.")
+    print("❌ Access denied! You must be at least 18 years old.")
+
+# Separator for clarity
+print("\n---\n")
+
+# Part 2: Meaning Check
+meaning = 2      # Assign a number to the variable 'meaning'
+
+# Conditional logic to check the value
+# if meaning > 10:
+#     print("Right On")
+# else:
+#     print("Not Today")
+
+# Ternary Operator Operation
+print("Right On!") if meaning > 10 else print("Not today")
 
 # End of program
-print("Program finished successfully.")
+print("\nProgram finished successfully.")
